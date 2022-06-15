@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAE9B,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;CAOnB;;AAbD,AAOE,IAPE,CAOF,EAAE,CAAC;EACD,OAAO,EAAE,IAAI;CAId;;AAZH,AASI,IATA,CAOF,EAAE,CAEA,EAAE,CAAC;EACD,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "../components/nav.scss"
+    ],
+    "names": [],
+    "file": "nav.css"
+}
