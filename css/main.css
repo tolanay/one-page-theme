@@ -1,9 +1,9 @@
 :root {
   --alpha: #161515;
   --contrast: #fd8059;
-  --elements: #C4C4C4;
-  --light: #FFF;
-  --skills: #e1e1e1;
+  --elements: #c4c4c4;
+  --light: #fff;
+  --skills: #00adeb;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -429,7 +429,7 @@ body {
 }
 
 h1 {
-  font-family: "OpenSans ExtraBold";
+  font-family: "montserrat.regular";
 }
 
 ::-webkit-input-placeholder {
@@ -460,12 +460,15 @@ h1 {
   max-width: 1155px;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Open Sans";
 }
 
 .nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: "Open Sans";
+  margin-top: 20px;
 }
 
 .nav ul li {
@@ -476,13 +479,53 @@ h1 {
   border: 1px red dotted;
   height: 727px;
   background-image: url("../images/hero.png");
+  color: azure;
 }
 
 .hero__wrap {
-  border: 1px red dotted;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 200px;
+}
+
+.hero__wrap h1 {
+  font-size: 100px;
+  font-family: "montserrat.regular";
+  text-align: center;
+}
+
+.hero__wrap p {
+  font-size: 24px;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.hero__button {
+  text-align: center;
+}
+
+.hero__button .B1 {
+  font-family: "Open Sans";
+  margin-top: 40px;
+  border: 1px white dotted;
+  border-radius: 12px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.hero__button .B2 {
+  font-family: "Open Sans";
+  margin-top: 40px;
+  background-color: #00adeb;
+  border-radius: 12px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=main.css.map */

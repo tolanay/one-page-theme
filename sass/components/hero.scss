@@ -2,12 +2,50 @@
   border: 1px red dotted;
   height: 727px;
   background-image: url("../images/hero.png");
+  color: azure;
 
   &__wrap {
-    border: 1px red dotted;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
+
+    h1 {
+      font-size: 100px;
+      font-family: "montserrat.regular";
+      text-align: center;
+    }
+    p {
+      font-size: 24px;
+      font-family: "Open Sans";
+      text-align: center;
+    }
+  }
+
+  &__button {
+    text-align: center;
+
+    .B1 {
+      font-family: "Open Sans";
+      margin-top: 40px;
+      border: 1px white dotted;
+      border-radius: 12px;
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin-left: 20px;
+    }
+    .B2 {
+      font-family: "Open Sans";
+      margin-top: 40px;
+      background-color: #00adeb;
+      border-radius: 12px;
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin-left: 20px;
+    }
   }
 }
