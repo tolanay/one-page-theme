@@ -1,0 +1,26 @@
+.container h1 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 40px;
+  text-decoration: underline;
+}
+
+.container .logo__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 1px red dotted;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=container.css.map */

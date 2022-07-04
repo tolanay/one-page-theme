@@ -1,23 +1,24 @@
 .hero {
-  border: 1px red dotted;
+  // border: 1px red dotted;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 727px;
   background-image: url("../images/hero.png");
   color: azure;
 
   &__wrap {
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
+    color: var(--light);
 
     h1 {
-      font-size: 100px;
-      font-family: "montserrat.regular";
+      font-size: 80px;
+      font-family: "Montserrat";
       text-align: center;
     }
     p {
       font-size: 24px;
-      font-family: "Open Sans";
+      font-family: "OpenSans Regular";
       text-align: center;
     }
   }
@@ -25,10 +26,10 @@
   &__button {
     text-align: center;
 
-    .B1 {
-      font-family: "Open Sans";
+    .features {
+      font-family: "OpenSans Regular";
       margin-top: 40px;
-      border: 1px white dotted;
+      border: 1px white solid;
       border-radius: 12px;
       padding: 15px 32px;
       text-align: center;
@@ -36,8 +37,8 @@
       font-size: 16px;
       margin-left: 20px;
     }
-    .B2 {
-      font-family: "Open Sans";
+    .download {
+      font-family: "OpenSans Regular";
       margin-top: 40px;
       background-color: #00adeb;
       border-radius: 12px;

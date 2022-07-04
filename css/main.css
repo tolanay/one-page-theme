@@ -1,7 +1,7 @@
 :root {
   --alpha: #161515;
   --contrast: #fd8059;
-  --elements: #c4c4c4;
+  --elements: #595959;
   --light: #fff;
   --skills: #00adeb;
 }
@@ -429,7 +429,7 @@ body {
 }
 
 h1 {
-  font-family: "montserrat.regular";
+  font-family: "Montserrat";
 }
 
 ::-webkit-input-placeholder {
@@ -457,18 +457,21 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 1155px;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Open Sans";
+  font-family: "OpenSans Bold";
+  color: var(--elements);
 }
 
 .nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "Open Sans";
-  margin-top: 20px;
+  font-family: "OpenSans Bold";
 }
 
 .nav ul li {
@@ -476,7 +479,15 @@ h1 {
 }
 
 .hero {
-  border: 1px red dotted;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 727px;
   background-image: url("../images/hero.png");
   color: azure;
@@ -484,20 +495,18 @@ h1 {
 
 .hero__wrap {
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 200px;
+  color: var(--light);
 }
 
 .hero__wrap h1 {
-  font-size: 100px;
-  font-family: "montserrat.regular";
+  font-size: 80px;
+  font-family: "Montserrat";
   text-align: center;
 }
 
 .hero__wrap p {
   font-size: 24px;
-  font-family: "Open Sans";
+  font-family: "OpenSans Regular";
   text-align: center;
 }
 
@@ -505,10 +514,10 @@ h1 {
   text-align: center;
 }
 
-.hero__button .B1 {
-  font-family: "Open Sans";
+.hero__button .features {
+  font-family: "OpenSans Regular";
   margin-top: 40px;
-  border: 1px white dotted;
+  border: 1px white solid;
   border-radius: 12px;
   padding: 15px 32px;
   text-align: center;
@@ -517,8 +526,8 @@ h1 {
   margin-left: 20px;
 }
 
-.hero__button .B2 {
-  font-family: "Open Sans";
+.hero__button .download {
+  font-family: "OpenSans Regular";
   margin-top: 40px;
   background-color: #00adeb;
   border-radius: 12px;
@@ -527,5 +536,76 @@ h1 {
   display: inline-block;
   font-size: 16px;
   margin-left: 20px;
+}
+
+.features {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1155px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  grid-gap: 40px;
+}
+
+.features .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 15px;
+}
+
+.clients h1 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 40px;
+}
+
+.clients h1 span {
+  background: #00aded;
+  height: 2px;
+  display: block;
+  max-width: 100px;
+  margin: 20px auto;
+}
+
+.clients__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1155px;
+  margin: 30px auto;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat.regular.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans ExtraBold";
+  src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans Bold";
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url(../fonts/OpenSans-Regular.ttf);
 }
 /*# sourceMappingURL=main.css.map */

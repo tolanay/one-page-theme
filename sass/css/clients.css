@@ -1,0 +1,29 @@
+.clients h1 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 40px;
+}
+
+.clients h1 span {
+  background: #00aded;
+  height: 2px;
+  display: block;
+  max-width: 100px;
+  margin: 20px auto;
+}
+
+.clients__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1155px;
+  margin: 30px auto;
+}
+/*# sourceMappingURL=clients.css.map */
